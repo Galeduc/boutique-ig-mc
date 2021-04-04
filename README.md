@@ -7,4 +7,4 @@ Un Souci mon discord : 𝓖𝓪𝒆𝓽𝓪𝓷 ℒ𝒆𝓓𝓾𝓬#9999
 
 Développer par Gaëtan.!
 
-[[https://imgur.com/eRrSskN.png]]
+![alt text](https://imgur.com/eRrSskN.png)
