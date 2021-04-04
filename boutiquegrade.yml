@@ -1,0 +1,244 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # REQUIRED
+  # Appears as the title of the menu.
+  name: '&1Menu Boutique'
+
+  # REQUIRED
+  # The number of rows in the menu.
+  rows: 3
+
+  # OPTIONAL
+  # Set which commands a player can execute to open the menu.
+  commands:
+  - 'grade'
+
+  # OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have placeholders in icon descriptions.
+  auto-refresh: 5
+
+  # OPTIONAL
+  # These actions will be executed when the menu is opened.
+  # Supports all the icon action types.
+  open-actions:
+  - ''
+
+  # OPTIONAL
+  # The menu will open only when right-clicking with a compass.
+  open-with-item:
+    material: compass
+    left-click: false
+    right-click: false
+
+
+######################
+#+                  +#
+#       ICONS        #
+#+                  +#
+######################
+
+Argent:
+  NAME: '&9Argent: {money}'
+  KEEP-OPEN: true
+  MATERIAL: 130
+  POSITION-X: 1
+  POSITION-Y: 3
+
+Vip:
+  LORE:
+    - '&ePrix: 45.000 Coins'
+    - ' '
+    - '&cClique pour acheter ce Grade (Argent IG)'
+  PRICE: 45000
+  PERMISSION: 'grade.vip'
+  PERMISSION-MESSAGE: '&cVous avez déjà acheté ce grade..'
+  KEEP-OPEN: true
+  ACTIONS:
+    - 'pex user {player} group set vip'
+    - 'console: broadcast Merci à &2&l{player} &ail vient d''acheter le grade &a&lVIP'
+  NAME: '&7&lGrade : VIP'
+  MATERIAL: 41
+  POSITION-X: 4
+  POSITION-Y: 2
+
+Vipp:
+  LORE:
+    - '&ePrix: 105.000 Coins'
+    - ' '
+    - '&cClique pour acheter ce Grade (Argent IG)'
+  PRICE: 105000
+  PERMISSION: 'grade.vip+'
+  PERMISSION-MESSAGE: '&cVous avez déjà acheté ce grade..'
+  KEEP-OPEN: true
+  ACTIONS:
+    - 'pex user {player} group set vipp'
+    - 'console: broadcast Merci à &2&l{player} &ail vient d''acheter le grade &a&lVIP+'
+  NAME: '&7&lGrade : VIP+'
+  MATERIAL: 57
+  POSITION-X: 6
+  POSITION-Y: 2
+
+close:
+  MATERIAL: redstone lamp
+  POSITION-X: 9
+  POSITION-Y: 3
+  NAME: '&6Fermer le menu'
+
+
+vitre01:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+vitre02:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+vitre03:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+vitre04:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+vitre05:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+vitre06:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+vitre07:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+vitre08:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+vitre09:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+vitre11:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+vitre29:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+vitre61:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 3
+vitre62:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+vitre63:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+vitre64:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 3
+vitre66:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+vitre67:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+vitre68:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+vitre69:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 2
+vitre22:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+vitre28:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 2
+vitre32:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+vitre28:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+vitre29:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 3
+vitre30:
+  MATERIAL: 160
+  NAME: ''
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
